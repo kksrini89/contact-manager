@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+  height: 100%;
 }
 
 .App-logo {
@@ -30,4 +32,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.listContainer {
+  padding: 10%;
+}
+
+.listContainer input {
+  color: #ffffff;
 }
